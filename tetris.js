@@ -308,7 +308,7 @@ class Game {
 					table[i][j] = 0;
                 }
                 table.splice(i,1);
-                table.unshift([9,0,0,0,0,0,0,0,0,0,0,9]);
+                table.unshift([1,0,0,0,0,0,0,0,0,0,0,1]);
                 this.points++;
 		    }
         }
