@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src='./tetris.js'></script>
+  <title>Tetris</title>
+  <style>
+    body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-height: 1080px;
+      background: rgb(31, 28, 53);
+      flex-direction: column;
+    }
+    canvas{
+      width: 400px;
+      height: 640px;
+      background-color: rgb(14, 1, 34);
+      box-shadow: 0px 0px 6px 6px rgb(17, 0, 125);
+    }
+    h1,h2,p{
+      font-family: 'Press Start 2P';
+      color: aliceblue;
+    }
+  </style>
+</head>
+<body onload='__game();'>
+  <h1>Tetris</h1>
+  <canvas id='canvas'></canvas>
+  <h2>Puntuación</h2>
+  <p id="points">0</p>
+</body>
+</html>
